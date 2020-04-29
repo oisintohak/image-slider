@@ -1,0 +1,27 @@
+{
+  "name": "image-slider",
+  "version": "1.0.0",
+  "description": "Responsive image slider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oisintohak/image-slider.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "JavaScript",
+    "responsive",
+    "image",
+    "slider"
+  ],
+  "author": "Oisin Tohak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oisintohak/image-slider/issues"
+  },
+  "homepage": "https://github.com/oisintohak/image-slider#readme"
+}

@@ -1,0 +1,52 @@
+/* Animation for fading slides */
+@keyframes fadeIn {
+    from {
+     opacity: 0;
+    }
+   
+    to {
+     opacity: 1;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.myslider-container {
+    margin: 0;
+    width: 100vw;
+    height: 400px;
+    max-width: 100%;
+    background-color: black;
+}
+/* 
+.myslider-list {
+    display: flex;
+    align-items: center;
+} */
+
+.myslider-slide {
+    list-style: none;
+    display: none;
+}
+
+.myslider-slide > img {
+    /* width: 100%; */
+    max-height: 400px;
+}
+
+.myslider-slide-active {
+    display: block;
+    animation: fadeIn 2s ease-in-out;
+}
+/* 
+.myslider-slide-hidden {
+    display: none;
+} */
+
+.myslider-slide img {
+    max-width: 100%;
+    max-height: 100%;
+}
